@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Simple QR Code Generator
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This is a simple QR Code Generator web application built using React and Next.js. It allows users to generate QR codes for any text input without the need to log in. The generated QR codes can be downloaded as PNG images.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- Generates QR codes for any given text input.
+- No login required, making it quick and easy to use.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Dependencies
+- React: A JavaScript library for building user interfaces.
+- Next.js: A framework for server-rendered React applications.
+- react-qr-code: A React component for rendering QR codes.
+- html2canvas: A library to convert HTML elements into a canvas.
+- file-saver: A library to save files on the client side
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `https://github.com/KarlisLauris/Simple-QR-Code-Generator.git`
+2. Navigate to the project folder: `cd Simple-QR-Code-Generator`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to http://localhost:3000
+    
+# Preview
+![Logo](https://i.imgur.com/JnfX05R.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+- [@KarlisLauris](https://github.com/KarlisLauris)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
