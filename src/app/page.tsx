@@ -30,7 +30,7 @@ export default function Home() {
     <div className="w-full flex flex-col text-center items-center">
       <h1 className="text-7xl">Simple QR Code Generator</h1>
       <span>I made this so I can easily generate QR codes without having to login somewhere</span>
-      <span>It is also open source, so you can check the code <Link className="font-bold" href="https://github.com/KarlisLauris/Simple-QR-Code-Generator"> here </Link></span>
+      <span>It is also open source, so you can check the code on my <Link className="font-bold" href="https://github.com/KarlisLauris/Simple-QR-Code-Generator"> GitHub </Link></span>
       <div className="w-full pt-6">
         <input 
           className="w-1/2 text-black h-10 rounded-md border-2 border-gray-300 focus:outline-none focus:border-blue-500" 
