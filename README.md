@@ -1,6 +1,6 @@
 
 # Simple QR Code Generator
-
+# [Live Preview](https://celebrated-zabaione-4806d2.netlify.app/)
 
 This is a simple QR Code Generator web application built using React and Next.js. It allows users to generate QR codes for any text input without the need to log in. The generated QR codes can be downloaded as PNG images.
 
