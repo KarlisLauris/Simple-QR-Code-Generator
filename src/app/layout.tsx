@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Simple QR Code Generator',
-  description: 'Created using Next.js and react-qr-code',
+  description: 'Simple QR Code Generator created bj Next.js',
 }
 
 export default function RootLayout({
